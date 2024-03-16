@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Items Management</h1>
+        <input type="text" id="itemName" placeholder="Item Name">
+        <input type="hidden" id="itemId" value="">
+
+        <textarea id="itemDescription" placeholder="Item Description"></textarea>
+<button onclick="saveItem()">Add Item</button>
+
+        
+        <div id="itemsList"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
